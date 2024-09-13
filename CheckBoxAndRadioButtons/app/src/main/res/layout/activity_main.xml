@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/mb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+
+        <RadioButton
+            android:id="@+id/motorola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Moto"/>
+        <RadioButton
+            android:id="@+id/onePlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Never Settle"
+            />
+        <RadioButton
+            android:id="@+id/apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Think Different"/>
+        <RadioButton
+            android:id="@+id/microsoft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be what’s next"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

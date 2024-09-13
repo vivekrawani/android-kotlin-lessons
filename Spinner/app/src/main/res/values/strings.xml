@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="Shows">
+        <item>Money Heist</item>
+        <item>Squid Game</item>
+        <item>How I Met your Mother</item>
+        <item>Westworld</item>
+        <item>The Witcher</item>
+        <item> Avatar: The Last Air Bender</item>
+        <item>Stranger Things</item>
+        <item>Peaky Blinders</item>
+    </string-array>
+</resources>
